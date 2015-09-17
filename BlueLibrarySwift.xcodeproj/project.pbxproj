@@ -167,6 +167,8 @@
 		101DD6BD1A052EDE00161F0D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Raywenderlich;
 				TargetAttributes = {
@@ -419,6 +421,7 @@
 				101DD6E61A052EDE00161F0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		101DD6E71A052EDE00161F0D /* Build configuration list for PBXNativeTarget "BlueLibrarySwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +430,7 @@
 				101DD6E91A052EDE00161F0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

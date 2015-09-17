@@ -34,7 +34,7 @@ class HTTPClient {
 	
 	func downloadImage(url: String) -> (UIImage) {
 		let aUrl = NSURL(string: url)
-		var data = NSData(contentsOfURL: aUrl!)
+		let data = NSData(contentsOfURL: aUrl!)
 		let image = UIImage(data: data!)
 		return image!
 	}
