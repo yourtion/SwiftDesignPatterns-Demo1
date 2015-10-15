@@ -16,6 +16,8 @@
 		101DD6EC1A052F0E00161F0D /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DD6EB1A052F0E00161F0D /* HTTPClient.swift */; };
 		CB8A9DCA1BAA935200C45EE9 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A9DC91BAA935200C45EE9 /* Album.swift */; settings = {ASSET_TAGS = (); }; };
 		CB8A9DCC1BAA944200C45EE9 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A9DCB1BAA944200C45EE9 /* AlbumView.swift */; settings = {ASSET_TAGS = (); }; };
+		CBEC56861BCF796F003C3087 /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC56851BCF796F003C3087 /* LibraryAPI.swift */; settings = {ASSET_TAGS = (); }; };
+		CBEC56881BCF7AC9003C3087 /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC56871BCF7AC9003C3087 /* PersistencyManager.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		101DD6EB1A052F0E00161F0D /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		CB8A9DC91BAA935200C45EE9 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		CB8A9DCB1BAA944200C45EE9 /* AlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		CBEC56851BCF796F003C3087 /* LibraryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryAPI.swift; sourceTree = "<group>"; };
+		CBEC56871BCF7AC9003C3087 /* PersistencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistencyManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				101DD6EB1A052F0E00161F0D /* HTTPClient.swift */,
+				CBEC56851BCF796F003C3087 /* LibraryAPI.swift */,
+				CBEC56871BCF7AC9003C3087 /* PersistencyManager.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -257,9 +263,11 @@
 			files = (
 				101DD6CD1A052EDE00161F0D /* ViewController.swift in Sources */,
 				101DD6CB1A052EDE00161F0D /* AppDelegate.swift in Sources */,
+				CBEC56861BCF796F003C3087 /* LibraryAPI.swift in Sources */,
 				101DD6EC1A052F0E00161F0D /* HTTPClient.swift in Sources */,
 				CB8A9DCC1BAA944200C45EE9 /* AlbumView.swift in Sources */,
 				CB8A9DCA1BAA935200C45EE9 /* Album.swift in Sources */,
+				CBEC56881BCF7AC9003C3087 /* PersistencyManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
