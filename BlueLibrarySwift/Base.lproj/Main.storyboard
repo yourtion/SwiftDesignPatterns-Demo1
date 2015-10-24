@@ -112,6 +112,7 @@
                     <navigationItem key="navigationItem" title="Pop Music" id="uLL-cE-ggB"/>
                     <connections>
                         <outlet property="dataTable" destination="bug-Yd-y9Q" id="yas-fl-POo"/>
+                        <outlet property="scroller" destination="mCJ-c6-A01" id="dXF-5x-pm6"/>
                         <outlet property="toolbar" destination="Neo-nw-t9H" id="dxl-Oc-qum"/>
                     </connections>
                 </viewController>
