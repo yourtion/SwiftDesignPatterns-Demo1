@@ -17,31 +17,31 @@ class PersistencyManager: NSObject {
         let album1 = Album(title: "Best of Bowie",
             artist: "David Bowie",
             genre: "Pop",
-            coverUrl: "http://www.coversproject.com/static/thumbs/album/album_david%20bowie_best%20of%20bowie.png",
+            coverUrl: "http://a4.mzstatic.com/us/r30/Music6/v4/e3/e5/22/e3e522f1-7b50-dc6b-d263-60f35d5e14f7/cover170x170.jpeg",
             year: "1992")
         
         let album2 = Album(title: "It's My Life",
             artist: "No Doubt",
             genre: "Pop",
-            coverUrl: "http://www.coversproject.com/static/thumbs/album/album_no%20doubt_its%20my%20life%20%20bathwater.png",
+            coverUrl: "http://a1.mzstatic.com/us/r30/Music/v4/17/dd/6f/17dd6f79-f2f9-74df-162e-efbad589437b/cover170x170.jpeg",
             year: "2003")
         
         let album3 = Album(title: "Nothing Like The Sun",
             artist: "Sting",
             genre: "Pop",
-            coverUrl: "http://www.coversproject.com/static/thumbs/album/album_sting_nothing%20like%20the%20sun.png",
+            coverUrl: "http://a2.mzstatic.com/us/r30/Music/v4/30/68/d3/3068d388-ebf3-c996-9e79-518c26f49280/cover170x170.jpeg",
             year: "1999")
         
-        let album4 = Album(title: "Staring at the Sun",
+        let album4 = Album(title: "Pop",
             artist: "U2",
             genre: "Pop",
-            coverUrl: "http://www.coversproject.com/static/thumbs/album/album_u2_staring%20at%20the%20sun.png",
+            coverUrl: "http://a1.mzstatic.com/us/r30/Music/v4/73/4e/d4/734ed41d-baef-3383-e8bd-857f447281da/cover170x170.jpeg",
             year: "2000")
         
-        let album5 = Album(title: "American Pie",
+        let album5 = Album(title: "Music",
             artist: "Madonna",
             genre: "Pop",
-            coverUrl: "http://www.coversproject.com/static/thumbs/album/album_madonna_american%20pie.png",
+            coverUrl: "http://a2.mzstatic.com/eu/r30/Music4/v4/de/19/09/de1909fc-19de-2d0e-6bb6-671f51ad1988/cover170x170.jpeg",
             year: "2000")
         
         albums = [album1, album2, album3, album4, album5]
@@ -61,5 +61,21 @@ class PersistencyManager: NSObject {
     
     func deleteAlbumAtIndex(index: Int) {
         albums.removeAtIndex(index)
+    }
+    
+    func saveImage(image: UIImage, filename: String) {
+        let path = NSHomeDirectory().stringByAppendingString("/Documents/\(filename)")
+        let data = UIImagePNGRepresentation(image)
+        data!.writeToFile(path, atomically: true)
+    }
+    
+    func getImage(filename: String) -> UIImage? {
+        let path = NSHomeDirectory().stringByAppendingString("/Documents/\(filename)")
+        do {
+            let data =  try NSData(contentsOfFile: path, options: .UncachedRead)
+            return UIImage(data: data)
+        } catch _ {
+            return nil
+        }
     }
 }
