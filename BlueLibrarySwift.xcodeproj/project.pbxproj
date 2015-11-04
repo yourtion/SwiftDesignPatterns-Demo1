@@ -14,12 +14,12 @@
 		101DD6D51A052EDE00161F0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101DD6D31A052EDE00161F0D /* LaunchScreen.xib */; };
 		101DD6E11A052EDE00161F0D /* BlueLibrarySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DD6E01A052EDE00161F0D /* BlueLibrarySwiftTests.swift */; };
 		101DD6EC1A052F0E00161F0D /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DD6EB1A052F0E00161F0D /* HTTPClient.swift */; };
-		CB8A9DCA1BAA935200C45EE9 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A9DC91BAA935200C45EE9 /* Album.swift */; settings = {ASSET_TAGS = (); }; };
-		CB8A9DCC1BAA944200C45EE9 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A9DCB1BAA944200C45EE9 /* AlbumView.swift */; settings = {ASSET_TAGS = (); }; };
-		CBC9AD2B1BD7772100746DBA /* AlbumExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9AD2A1BD7772100746DBA /* AlbumExtensions.swift */; settings = {ASSET_TAGS = (); }; };
-		CBC9AD2D1BD7798000746DBA /* HorizontalScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9AD2C1BD7798000746DBA /* HorizontalScroller.swift */; settings = {ASSET_TAGS = (); }; };
-		CBEC56861BCF796F003C3087 /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC56851BCF796F003C3087 /* LibraryAPI.swift */; settings = {ASSET_TAGS = (); }; };
-		CBEC56881BCF7AC9003C3087 /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC56871BCF7AC9003C3087 /* PersistencyManager.swift */; settings = {ASSET_TAGS = (); }; };
+		CB8A9DCA1BAA935200C45EE9 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A9DC91BAA935200C45EE9 /* Album.swift */; };
+		CB8A9DCC1BAA944200C45EE9 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A9DCB1BAA944200C45EE9 /* AlbumView.swift */; };
+		CBC9AD2B1BD7772100746DBA /* AlbumExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9AD2A1BD7772100746DBA /* AlbumExtensions.swift */; };
+		CBC9AD2D1BD7798000746DBA /* HorizontalScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9AD2C1BD7798000746DBA /* HorizontalScroller.swift */; };
+		CBEC56861BCF796F003C3087 /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC56851BCF796F003C3087 /* LibraryAPI.swift */; };
+		CBEC56881BCF7AC9003C3087 /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC56871BCF7AC9003C3087 /* PersistencyManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
