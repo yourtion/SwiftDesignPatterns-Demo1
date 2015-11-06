@@ -38,6 +38,10 @@ class LibraryAPI: NSObject {
         return persistencyManager.getAlbums()
     }
     
+    func saveAlbums() {
+        persistencyManager.saveAlbums()
+    }
+    
     func addAlbum(album: Album, index: Int) {
         persistencyManager.addAlbum(album, index: index)
         if isOnline {
